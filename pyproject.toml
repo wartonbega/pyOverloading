@@ -1,0 +1,28 @@
+[project]
+name = "pyOverloading"
+version = "2026.02.13"
+dependencies = []
+requires-python = ">=3.10"
+authors = [
+  {name = "Anton Appel", email = "appelanton5@gmail.com"}
+]
+maintainers = [
+  {name = "Anton Appel", email = "appelanton5@gmail.com"}
+]
+description = "A Simple pure python library to emulate type overloading"
+
+keywords = ["overloading", "type", "function", "polymorphism"]
+classifiers = [
+  "Development Status :: Beta",
+  "Programming Language :: Python"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["useful"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: pyOverloading
+Version: 2026.2.13
+Summary: A Simple pure python library to emulate type overloading
+Author: Your Name
+Author-email: Anton Appel <appelanton5@gmail.com>
+Maintainer-email: Anton Appel <appelanton5@gmail.com>
+Keywords: overloading,type,function,polymorphism
+Classifier: Development Status :: Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description-content-type
+Dynamic: requires-python
