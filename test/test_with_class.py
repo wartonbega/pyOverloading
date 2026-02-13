@@ -1,4 +1,4 @@
-from .. import overload
+from pyOverloading.Overloading import overload
 
 
 class Test:
