@@ -81,7 +81,7 @@ def update_config(conf: Dict[str, int]):
     print("Updating numeric configuration")
 
 @overload
-def update_config(val: Union[int, float]):
+def update_config(val: int | float):
     print(f"Updating single scale value: {val}")
 
 update_config({"timeout": 30}) # Matches Dict[str, int]
